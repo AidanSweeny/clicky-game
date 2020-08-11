@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/clicky-game/static/js/main.02bab987.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.02bab987.chunk.js.map",
+    "runtime-main.js": "/clicky-game/static/js/runtime-main.3c5f3143.js",
+    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.3c5f3143.js.map",
+    "static/js/2.6ef17e12.chunk.js": "/clicky-game/static/js/2.6ef17e12.chunk.js",
+    "static/js/2.6ef17e12.chunk.js.map": "/clicky-game/static/js/2.6ef17e12.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.61edf53c1a9acdf2c444d5bd4124de04.js": "/clicky-game/precache-manifest.61edf53c1a9acdf2c444d5bd4124de04.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/js/2.6ef17e12.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.6ef17e12.chunk.js.LICENSE.txt",
+    "static/media/aang.jpg": "/clicky-game/static/media/aang.b3bceb38.jpg",
+    "static/media/azula.jpg": "/clicky-game/static/media/azula.517542ca.jpg",
+    "static/media/banner.jpg": "/clicky-game/static/media/banner.ce63ddcb.jpg",
+    "static/media/iroh.jpg": "/clicky-game/static/media/iroh.7a7d3848.jpg",
+    "static/media/jeong-jeong.jpg": "/clicky-game/static/media/jeong-jeong.8ae1709a.jpg",
+    "static/media/momo.jpg": "/clicky-game/static/media/momo.6d3c74d2.jpg",
+    "static/media/sokka.jpg": "/clicky-game/static/media/sokka.e0f014e0.jpg",
+    "static/media/zuko.jpg": "/clicky-game/static/media/zuko.b5a7ac62.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c5f3143.js",
+    "static/js/2.6ef17e12.chunk.js",
+    "static/js/main.02bab987.chunk.js"
+  ]
+}
