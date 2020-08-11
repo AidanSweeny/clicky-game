@@ -1,5 +1,17 @@
 # clicky-game
-For this assignment I created a game using React. In this game the user could pick an image, and then the images on the board would shuffe around. After every unique image was selected, the score in the top right corner would increase
+For this assignment I created a game using React. In this game the user could pick an image, and then the images on the board would shuffe around. After every unique image was selected, the score in the top right corner would increase. If the user got a top score it would also update with this. If the user selected an image that they already clicked on, then it would say that they guessed incorrectly, and reset the score back to 0. In order to implement this, I used the index.js and the app.js files to route the user to the Game page. This was the page where everything happened. Using a state object I was able to store all the information that I would need to update on the page. This included the score, top score, the images that were being used, a message to display to the user, and an array of images that were  already clicked. I used  dynamic elements on the page to update stuff like the message at the top of  the navbar. In order to shuffle the images  I created a shuffle method that would shuffle  the images in the array, and then display them to the page. This was the loop I used to shuffe the array: 
+```
+for (let i = newArray.length - 1; i > 0; i--) {
+            const idx = Math.floor(Math.random() * i)
+            const tempNum = newArray[i]
+            newArray[i] = newArray[idx]
+            newArray[idx] = tempNum
+        }
+```
+Here I get a random index, and asign the item at that index to a new number depending on where we are in the loop. I take the old value that was there, and assign it to the location wheree the random number used to be. I then move down the array, until all the values have been completely shuffled. 
+Whenever an image is clicked there are some statements that check to see if the image is in the clicked image array, and if not it adds it there, and continues with the game. If the image was there, then it displays that the user was wrong, and resets the score. Below is a working demonstration of the application:
+
+![](game.gif)
 
 ## Getting Started
 
@@ -30,12 +42,11 @@ This should then be moved to your desktop, or somewhere else on your computer. T
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Heroku](https://devcenter.heroku.com/categories/reference)
-* [Express.js](https://expressjs.com/)
+* [React](https://reactjs.org/docs/getting-started.html)
 
 ## Deployed Link
 
-* [See Live Site](https://protected-sierra-44051.herokuapp.com/)
+* [See Live Site](https://aidansweeny.github.io/clicky-game/)
 
 ## Authors
 
