@@ -21,6 +21,11 @@ class Game extends Component {
         this.shuffleImgs();
     }
 
+    handleClick = (event) =>{
+        event.preventDefault();
+        this.shuffleImgs();
+    }
+
     render() {
         return (
             <div>
@@ -38,58 +43,58 @@ class Game extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[0])} style={{ border: "10px solid grey", height: "200px" }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[0])} style={{ border: "10px solid grey", width : "200px", height: "200px" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[1])} style={{ border: "10px solid grey", height: "200px" }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[1])} style={{ border: "10px solid grey", height: "200px", width : "200px" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[2])} style={{ border: "10px solid grey", height: "200px" }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[2])} style={{ border: "10px solid grey", height: "200px", width : "200px" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[3])} style={{ border: "10px solid grey", height: "200px" }} />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[4])} style={{ border: "10px solid grey", height: "200px"  }} />
-                        </div>
-                        <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[5])} style={{ border: "10px solid grey", height: "200px"  }} />
-                        </div>
-                        <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[6])} style={{ border: "10px solid grey", height: "200px"  }} />
-                        </div>
-                        <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[7])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[3])} style={{ border: "10px solid grey", height: "200px", width : "200px" }} />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[8])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[4])} style={{ border: "10px solid grey", height: "200px" , width : "200px" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[9])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[5])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[10])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[6])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[11])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[7])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[12])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[8])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[13])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[9])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[14])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[10])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                         <div className="col-md-3">
-                            <img src={require('../images/' + this.state.imageArray[15])} style={{ border: "10px solid grey", height: "200px"  }} />
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[11])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-3">
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[12])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
+                        </div>
+                        <div className="col-md-3">
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[13])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
+                        </div>
+                        <div className="col-md-3">
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[14])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
+                        </div>
+                        <div className="col-md-3">
+                            <img onClick = {this.handleClick} src={require('../images/' + this.state.imageArray[15])} style={{ border: "10px solid grey", height: "200px", width : "200px"  }} />
                         </div>
                     </div>
                 </div>
