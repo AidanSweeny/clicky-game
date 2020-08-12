@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Route exact path="/" component={Game} />
+        <Route exact path="/clicky-game" component={Game} />
       </div>
     </Router>
   );
